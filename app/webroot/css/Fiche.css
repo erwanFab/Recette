@@ -1,0 +1,199 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26 avr. 2015, 09:48:46
+    Author     : pcdoudou
+*/
+
+.fiche{
+    
+    width: 800px;
+    height: 1200px;
+    margin-left: 200px;
+    
+    border-radius: 8px;
+    
+    -webkit-box-shadow: 18px -18px 5px 0px rgba(255,255,255,1);
+-moz-box-shadow: 18px -18px 5px 0px rgba(255,255,255,1);
+box-shadow: 18px -18px 5px 0px rgba(255,255,255,1);
+
+
+    background: linear-gradient(to left,#5ca2db,#1f3243);
+        background: -webkit-linear-gradient( left, #5ca2db,#1f3243);
+background:    -moz-linear-gradient( left, #5ca2db,#1f3243);
+background:     -ms-linear-gradient( left, #5ca2db,#1f3243);
+
+    
+}
+
+
+
+
+.td-quantite{
+    width: 100px;
+}
+
+.td-unity{
+    width: 200px;
+    height: 64px;
+}
+
+.td-ingredient{
+    width: 200px;
+    height: 64px;
+    
+}
+
+.td-add{
+    width: 64px;
+    height: 64px;
+}
+
+.td-suppr{
+    width: 100px;
+    height: 34px;
+    
+}
+
+#titredefiche{
+    text-align: center;
+    color: red;
+    font-size: 35px;
+    font-weight: bold;
+     background: linear-gradient(to left,#5ca2db,#1f3243);
+        background: -webkit-linear-gradient( left, #5ca2db,#1f3243);
+background:    -moz-linear-gradient( left, #5ca2db,#1f3243);
+background:     -ms-linear-gradient( left, #5ca2db,#1f3243);
+
+margin-top: 80px;
+}
+
+#ingredients{
+    font-size: 15px;
+    padding-top: 10px;
+    padding-right: auto;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    margin: 0px;
+    margin-left: 80px;
+    color: black;
+    font-size: 17px;
+   
+    
+}
+
+#cadreI{
+    
+    width: 410px;
+    height: auto;
+    
+    
+}
+
+#Etapes{
+    
+    width: 600px;
+    height: 300px;
+    font-size: 20px;
+    color: black;
+    margin-left: 80px;
+    margin-top: 100px;
+    background: white;
+    overflow-y: scroll;
+    
+    
+}
+
+
+
+#four{
+    
+    background: url("../img/four.gif") no-repeat;
+    width: 400px;
+    height: 400px;
+    margin-left: 450px;
+    margin-top: -550px;
+    color: orangered;
+}
+
+
+#cadreII{
+    
+    width: 100px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: -150px;
+}
+
+#cadreIII{
+    
+    width: 100px;
+    height: 200px;
+    margin-left: 1120px;
+    margin-top: -250px;
+}
+
+
+
+
+/* Pour la fiche d'insciption nouvelle recette */
+
+.formulaire_fiche{
+    
+    width: 1000px;
+    height: auto;
+}
+.Etapes_comentaire{
+    
+    width: 1400px;
+    height: auto;
+}
+
+.table_ingredients{
+    
+     width: 1400px;
+    height: auto;
+    
+}
+
+
+
+
+
+
+
+
+#espace_cuisson{
+    
+    margin-top: 50px;
+    
+    width: 800px;
+    height: 200px;
+   
+  
+    
+}
+
+#thermos{
+    margin-left: 150px;
+    margin-top: 5px;
+    width: 100px;
+   display: inline-block;
+  
+    
+}
+
+#time{
+    
+    width: 277px;
+    height: 30px;
+}
+
+#save{
+    width: 150px;
+    height: 50px;
+    margin-left: 900px;
+}

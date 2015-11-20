@@ -1,0 +1,130 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26 avr. 2015, 15:14:32
+    Author     : pcdoudou
+*/
+
+input[type=text],
+input[type=number]
+{
+    border: 5px solid white; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 15px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+    
+    color: white;
+font-weight: bold; 
+}
+
+/* pour se Connecter au service */
+
+
+
+input[type=text]{
+    
+    width: 277px;
+    height: 50px;
+}
+
+input[type=password]{
+    
+    width: 277px;
+    height: 50px;
+}
+
+/*  ---------------------------------------------------------------------   */
+
+/* Pour Ajouter un recette  */
+
+
+
+
+input.titre{
+    width: 277px;
+    height: 30px;
+    
+}
+
+input.timepicker{
+    width: 277px;
+    height: 70px;
+    
+}
+
+
+input.quantite{
+    
+    width: 90px;
+    height: 70px;
+    font-weight: bold;
+    color: black;
+ }
+
+ html, body {margin: 0; padding: 0; font-family: comic sans ms; font-size: 10px; box-sizing: border-box;}
+a:link, a:visited, a:active, a:hover {text-decoration: none; color: #ffffff;}
+form {display: inline-block;}
+
+section table {width: 100%; display: block; border-collapse: collapse;}
+
+section caption
+    {
+        width: auto;
+        height: 45px;
+        line-height: 25px;
+        vertical-align: middle;
+        display: block;
+       color: #15C61B;
+        font-size: 35px;
+        border-bottom: 1px solid black;
+    }
+
+section thead {background-color: #F4BA1A; border-bottom: 1px solid black;}
+section thead tr th {border-right: 1px solid black; padding: 0px 3px;font-size: 17px;color: black; }
+section thead tr th:last-child {border-right: none;}
+section thead tr th:first-child {width: 16px;}
+section thead tr th:nth-child(2) {width: 200px;}
+section thead tr th:nth-child(9) {width: 50px;}
+section tbody tr td:nth-child(12) {width: 65px;}
+section tbody tr td:nth-child(13) {width: 45px;}
+section tbody tr td:nth-child(15) {width: 45px;}
+section tbody tr td:nth-child(16) {width: 45px;}
+
+section tbody tr {height: 20px; line-height: 20px; vertical-align: middle; border-bottom: 1px solid black;}
+section tbody tr td {font-size: 17px;color: black; text-align: center;}
+section tbody tr td input {font-size: 17px;color: black; text-align: center; border: 1px solid black;}
+section tbody tr:nth-child(odd) {background-color: #7AB5F9;}
+section tbody tr:nth-child(even) {background-color: #DA7AF9;}
+section tbody tr td img {position: relative; top: 3px;}
+section tbody tr td:nth-last-child(2) img {opacity: 0.2;}
+ 
+ 
+label{
+    
+    color: red;
+    font-weight: bold; 
+    font-size: 27px;
+}
+
+.fieldset1{
+    
+    width: 400px;
+    height: 400px;
+    margin-left: 700px;
+    margin-top: -130px;
+    
+}
+
+/*  ---------------------------------------------------------------------   */

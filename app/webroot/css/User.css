@@ -1,0 +1,40 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17 juil. 2015, 08:25:43
+    Author     : pcdoudou
+*/
+
+a:link{
+    
+    font-size: 27px;
+    color: white;
+    
+}
+
+a:hover{
+    
+   color: #0a0;
+   
+    
+}
+
+.users form{
+    
+    color: #1392e9;
+}
+
+table tr:nth-child(even) {
+	 background: #0f5;
+         color: blueviolet;
+         font-size: 25px;
+             
+}
+
+#user{
+    
+    color: white;
+}

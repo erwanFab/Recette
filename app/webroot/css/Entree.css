@@ -1,0 +1,101 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21 avr. 2015, 13:15:01
+    Author     : pcdoudou
+*/
+
+
+.block{
+    display: block;
+    color: black;
+    margin-left: 200px;
+    margin-top: -80px;
+}
+
+
+#titredepage{
+    
+    background: -webkit-linear-gradient( left, black, white);
+background:    -moz-linear-gradient( left, black, white);
+background:     -ms-linear-gradient( left, black, white);
+background:      -o-linear-gradient( left, black, white);
+background:         linear-gradient( to left, black, white);
+    color: red;
+    font-size: 45px;
+    text-align: center;
+}
+
+.filters{
+    
+    width: 250px;
+    height: 160px;
+    margin-top: 30px;
+    margin-left: 1200px;
+    background: #f0f7fc;
+    
+}
+
+#search{
+    
+    border-radius: 8px;
+    -moz-border-radius :8px;
+    -webkit-border-radius: 8px;
+    background: #05B2D2;
+    color: white;
+    font-weight: bold;
+        
+}
+
+
+
+
+
+#commentaire{
+    color: black;
+    font-size: 24px;
+    width: 670px;
+}
+
+#nbr_perssonnes{
+    
+    background: green;
+    color: wheat;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    margin-left: 800px;
+    margin-top: -50px;
+}
+
+
+
+
+
+
+
+.scrollup {
+	width: 30px;
+	height: 30px;
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	display: none;
+	color: white;
+	background-color: #979797;
+	//border: 1px solid #3a3f51;
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 37px;
+}
+ 
+.scrollup:hover {
+	color: white;
+        background-color: olivedrab;
+}

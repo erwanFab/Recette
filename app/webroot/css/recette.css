@@ -1,0 +1,268 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17 avr. 2015, 10:12:44
+    Author     : pcdoudou
+*/
+
+
+/*** Acceuil  **/
+#tab_title{
+    
+    height: -140px;
+}
+
+#Ligne_Login{
+    height: 140px;
+    
+}
+
+#Login{
+    
+    color: red;
+}
+
+.encadrement {
+    
+    display: block;
+    margin-top: 100px;
+    
+}
+
+.Choix_block{
+    
+    display: block;
+    margin-left: 200px;
+    margin-top: 150px;
+    
+    width: 600px;
+    height: 200px;
+   
+    
+}
+
+/* ------------------------------------------------------------*/
+
+#titre{
+    background: #e58e2f;
+    text-align: center;
+    color:  red;
+    font-size: 36px;
+    font-weight: bold;
+    width: 850px;
+    
+}
+
+#titre2{
+    background:#0a0;
+        text-align: center;
+    
+    font-size: 36px;
+    font-weight: bold;
+    width: 850px;
+    
+}
+
+
+#titre3{
+    background:#62d6ce;
+    text-align: center;
+    color:  red;
+    font-size: 36px;
+    font-weight: bold;
+    width: 850px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Logo{
+    background: url("../img/Logo.png")no-repeat;
+    width: 480px;
+    height: 230px;
+    border: 2px solid black;
+}
+
+
+#Login{
+    background: black;
+    color: white;
+    font-size: 17px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+/*
+*   Permet le retournement d'une carte
+*
+*
+*/
+.card-container {
+    margin-left: 10px;
+    margin-top: -100px;
+  cursor: pointer;
+  height: 150px;
+  perspective: 600;
+  position: relative;
+  width: 150px;
+}
+.card {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+.card:hover {
+  transform: rotateY(180deg);
+  border: 5px solid navy;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  
+}
+
+.side{
+    background: url("../img/roti.png")no-repeat;
+}
+
+
+
+.card .side {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+.card .back {
+  background: #1f3243;
+  color: #0087cc;
+  line-height: 150px;
+  text-align: center;
+  transform: rotateY(180deg);
+}
+
+/* Plat Entree Selection */
+.Plat-container {
+    margin-left: 200px;
+    margin-top: -150px;
+        
+  cursor: pointer;
+  height: 150px;
+  perspective: 600;
+  position: relative;
+  width: 150px;
+  
+}
+.card_des_Plats {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+.card_des_Plats:hover {
+  transform: rotateY(180deg);
+  border: 5px solid navy;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+}
+
+.side_Avant{
+    background: url("../img/entree.jpeg")no-repeat;
+    width: 150px;
+    height: 150px;
+    
+}
+
+.card_des_Plats .side_Avant {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+.card_des_Plats .back {
+  background: #1f3243;
+  color: #0087cc;
+  line-height: 150px;
+  text-align: center;
+  transform: rotateY(180deg);
+}
+
+/*
+*   Selection des Desserts
+*
+*
+*/
+
+.Dessert-container {
+    margin-left: 400px;
+    margin-top: -150px;
+        
+  cursor: pointer;
+  height: 150px;
+  perspective: 600;
+  position: relative;
+  width: 150px;
+  
+}
+.card_des_Dessert {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+.card_des_Dessert:hover {
+  transform: rotateY(180deg);
+  border: 5px solid navy;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  
+}
+
+.side_D{
+    background: url("../img/fraise.jpg")no-repeat;
+    width: 150px;
+    height: 150px;
+    
+}
+
+.card_des_Dessert .side_D {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+.card_des_Dessert .back {
+  background: #1f3243;
+  color: #0087cc;
+  line-height: 150px;
+  text-align: center;
+  transform: rotateY(180deg);
+}
